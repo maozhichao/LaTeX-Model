@@ -61,7 +61,7 @@
 
 
 %==================================定义页面边距===================================================
-\renewcommand{\baselinestretch}{1.2}  %1.5倍行距
+\renewcommand{\baselinestretch}{1.5}  %1.5倍行距
 \usepackage{geometry}
 \geometry{left=2.8cm,right=2.8cm,top=2.54cm,bottom=2.54cm}
 
@@ -130,7 +130,7 @@
 
 \fancyhead{}
 \fancyhead[RO]{\small \rightmark}%\rightmark代替当前section名，\leftmark代替当前chapter名。
-\fancyhead[RO,LE]{\small \rightmark}
+\fancyhead[RO,LE]{\small \rightmark}%RO LE代表对奇数页页眉置于右侧，对偶数页页眉置于左侧，仅对支持此设置的doucumentclass有效，对于article等格式无效，但不会报错。
 \fancyfoot[C]{\wuhao \thepage}
 \fancyfoot[RO,LE]{\textcolor[RGB]{144,144,144}{\emph{Ordered by Chihch Mao}}}
 \renewcommand{\headrulewidth}{0pt}%改为0pt即可去掉页眉下面的横线
