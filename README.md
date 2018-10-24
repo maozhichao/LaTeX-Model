@@ -7,3 +7,5 @@ Some models for LaTeX writting.
 5. Textbook中给出了一本供初学者参考的手册LaTeX-cn，且为中文无阅读障碍，并附带了源码，但不完善。初学者应至少读完前两章。
 6. 模板是我自己写的，能力有限，随着后续功能的增多可能会有bug，但是至少注释贴的比较清楚，方便后面修改。
 7. 本人使用的是Texlive2017加上TexStudio编译器，此环境下本模板应当没有任何问题，初学者可用仿照使用；有一定（百度）能力也可以通过搭建Sublime Text的Latex编译环境来获得更好的体验，“Sublime+LaTex_Configs”文件夹内提供了Latextools的“Settings-User”的配置示例，同时提供了两个使用sublime预载公式所需的软件安装包。
+
+——version 0.1.6
